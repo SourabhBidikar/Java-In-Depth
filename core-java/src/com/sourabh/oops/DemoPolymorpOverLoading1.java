@@ -32,7 +32,6 @@ class StudentName{
 	
 	
 	public StudentName(String firstname, String lastname) {
-		super();
 		this.firstname = firstname;
 		this.lastname = lastname;
 	}

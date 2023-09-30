@@ -1,4 +1,4 @@
-
+package com.sourabh.oops;
 /*
  * Compile time or static or overloading
  */
@@ -9,7 +9,7 @@ public class DemoPolymorpOverLoading1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	StudentName s = new StudentName("sourabh","Bidikar");
+	StudentName1 s = new StudentName1("sourabh","Bidikar");
 	
 	s.printName(s.firstname);
 	
@@ -26,12 +26,12 @@ public class DemoPolymorpOverLoading1 {
 }
 
 
-class StudentName{
+class StudentName1{
 	String firstname;
 	String lastname;
 	
 	
-	public StudentName(String firstname, String lastname) {
+	public StudentName1(String firstname, String lastname) {
 		this.firstname = firstname;
 		this.lastname = lastname;
 	}

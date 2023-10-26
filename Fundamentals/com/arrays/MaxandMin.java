@@ -34,8 +34,6 @@ public class MaxandMin {
 			}
 		}
 		
-		
-		
 		System.out.println("min in array is : "+min);
 		
 
